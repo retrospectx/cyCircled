@@ -356,4 +356,21 @@ cyCircled.skins = {
 		["PushedTexture"] 		= { w=40, h=40, tex="Interface\\AddOns\\cyCircled\\textures\\simpleSquare\\simpleSquareHighlight", bm="ADD", },
 		["CheckedTexture"]		= { w=40, h=40, dl="ARTWORK", tex="Interface\\AddOns\\cyCircled\\textures\\simpleSquare\\simpleSquareActive", bm="BLEND", },
 	},
+	["ElvUI"] = {
+		["icon"] 	= { w=34, h=34, dl="BACKGROUND" },
+		["overlay"] = { w=42, h=42, tex="Interface\\AddOns\\cyCircled\\textures\\ElvUI\\Normal", },
+		["equip"] 	= { w=42, h=42, tex="Interface\\AddOns\\cyCircled\\textures\\ElvUI\\Normal", },
+		["flash"]	= { w=42, h=42, tex="Interface\\AddOns\\cyCircled\\textures\\ElvUI\\Normal", },
+		["cooldown"]= { w=42, h=42, x=3, y=3, fl=2, s=1, },
+		["hotkey"]	= { x=3, y=11, dl="OVERLAY", },
+		["count"]	= { x=10, y=-6, dl="OVERLAY", },
+		["bagicon"]	= { w=42, h=42, x=6, y=-6, },
+		["autocast"]= { w=42, h=42, fl=2, },
+		["autocastable"]= { w=57, h=62, },
+		
+		["NormalTexture"] 		= { w=1, h=1, x=4, y=-4, r="CENTER", rp="TOPLEFT", },
+		["HighlightTexture"] 	= { w=44, h=44, tex="Interface\\AddOns\\cyCircled\\textures\\ElvUI\\Highlight", bm="BLEND", a=.7, },
+		["PushedTexture"] 		= { w=37, h=37, tex="Interface\\AddOns\\cyCircled\\textures\\ElvUI\\Pushed", bm="BLEND", },
+		["CheckedTexture"]		= { w=37, h=37, tex="Interface\\AddOns\\cyCircled\\textures\\ElvUI\\Pushed", bm="BLEND", },
+	},
 }
